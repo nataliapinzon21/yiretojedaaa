@@ -1,0 +1,107 @@
+.encabezado{
+    background-color: lightblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.net-social{
+    display: flex;
+}
+
+.seccion1{
+    background-color: lightseagreen;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+}
+
+header {
+    background-color: lightskyblue;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: limegreen;
+    text-decoration: revert-layer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: blueviolet;
+}
+
+.product {
+    margin-bottom: 40px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+footer {
+    background-color: seagreen;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.btn-animated {
+    background-color: royalblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: blink;
+    transition: pow(0, 0) ;
+}
+
+.btn-animated:hover {
+    background-color: darkred;
+}
